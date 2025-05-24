@@ -15,7 +15,7 @@ button, p {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1950px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -267,7 +267,7 @@ button, p {
 
 .offer_section-eight {
     width: 100%;
-    min-height: 100vh;
+    max-height: 100vh;
     background-image: url("/img/map.jpg");
     background-size: cover;
     background-position: center;
@@ -288,10 +288,11 @@ button, p {
 
 .testimonial__card-two {
     background-color: #b4e2e2;
-    padding: 80px 60px;
-    border-radius: 30px;
+    padding: 65px 60px;
+    border-radius: 15px;
     max-width: 600px;
     text-align: start;
+    justify-content: center;
 }
 
 .testimonial__call {
