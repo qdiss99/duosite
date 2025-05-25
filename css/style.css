@@ -15,14 +15,14 @@ button, p {
 }
 
 .container {
-    max-width: 1950px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 30px;
 }
 
 .offer-wrapper {
     position: relative;
-    background-image: url("/img/photo to main offer.jpg");
+    background-image: url("../img/photo to main offer.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,7 +197,7 @@ button, p {
 
 .offer_section-four {
     position: relative;
-    background-image: url("/img/counter bg.jpg");
+    background-image: url("../img/counter bg.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -271,7 +271,7 @@ button, p {
 .offer_section-eight {
     width: 100%;
     max-height: 100vh;
-    background-image: url("/img/map.jpg");
+    background-image: url("../img/map.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -315,20 +315,24 @@ button, p {
 .For-me {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../img/Photo-1.png") center/cover no-repeat;
-    width: 100vw;
-    height: 450px;
-    padding: 60px 135px;
+    width: 100%;
+    min-height: 450px;
     display: flex;
     justify-content: space-between;
+    padding: 60px 120px; /* Отступ слева и справа как в макете */
+    box-sizing: border-box;
+    gap: 20px;
+    flex-wrap: wrap;
 }
-
 .Block-1 {
-    min-height: 450px;
+    width: 100vw; /* тоже на всю ширину */
+    overflow: hidden; /* если вдруг что-то вылезает */
 }
 
 .content-block {
-    width: 570px;
+    max-width: 570px;
     font-weight: 700;
+    color: white;
 }
 
 .photo-block {
@@ -475,7 +479,7 @@ h1 {
 
 .content-3 {
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("/img/img-block-3.png") center/cover no-repeat;
+    url("../img/img-block-3.png") center/cover no-repeat;
     width: 100vw;
     height: 564px;
 
