@@ -18,7 +18,7 @@
         <div class="container">
             <nav class="header__nav">
                 <div class="header__logo">
-                    <img class="logo-section__img" src="../img/logo.png" alt="Логотип">
+                    <img class="logo-section__img" src="img/logo.png" alt="Логотип">
                 </div>
                 <ul class="header__nav-list">
                     <li class="header__item"><a class="header__link header__link--active" href="index.html">Главная</a>
@@ -48,7 +48,7 @@
     <div class="offer__info-one">
 
         <div class="offer__card">
-            <img src="../img/goal.svg" alt="photo1">
+            <img src="img/goal.svg" alt="photo1">
             <div class="offer__text-info">
                 <h3 class="offer__title-info">Личные консультации</h3>
                 <p class="offer__description">Достижения поставленных целей<br>бывает сложной задачей, но при<br>правильной
@@ -57,7 +57,7 @@
         </div>
 
         <div class="offer__card">
-            <img src="../img/family-room.svg" alt="photo2">
+            <img src="img/family-room.svg" alt="photo2">
             <div class="offer__text-info">
                 <h3 class="offer__title-info">Семейная терапия</h3>
                 <p class="offer__description">У любой семьи бывают кризисные<br>ситуации, поэтому в такие,<br>моменты
@@ -66,7 +66,7 @@
         </div>
 
         <div class="offer__card">
-            <img src="../img/network.svg" alt="photo3">
+            <img src="img/network.svg" alt="photo3">
             <div class="offer__text-info">
                 <h3 class="offer__title-info">Сенситивные группы</h3>
                 <p class="offer__description">Групповые занятия — отличное<br>место, чтобы научиться общаться с<br>окружающими
@@ -76,6 +76,7 @@
     </div>
 </section>
 
+<section class="offer_section-three">
 <div class="Block-1">
     <div class="For-me">
         <div class="content-block">
@@ -94,7 +95,7 @@
 
 
         <div class="photo-block">
-            <img src="../img/Photo-2.jpg" alt="Мое фото">
+            <img src="img/Photo-2.jpg" alt="Мое фото">
         </div>
     </div>
 </div>
@@ -109,12 +110,16 @@
 
     <div class="form-container">
         <div class="form-left">
-            <input type="text" placeholder="Фамилия">
-            <input type="text" placeholder="Имя">
-            <input type="email" placeholder="Почта">
+            <label for="surname">Фамилия</label>
+            <input id="surname" type="text" placeholder="Фамилия">
+            <label for="name">Имя</label>
+            <input id="name" type="text" placeholder="Имя">
+            <label for="email">Почта</label>
+            <input id="email" type="email" placeholder="Почта">
         </div>
         <div class="form-right">
-            <textarea placeholder="Ваше сообщение"></textarea>
+            <label for="message">Ваше сообщение</label>
+            <textarea id="message" placeholder="Ваше сообщение"></textarea>
         </div>
     </div>
 
@@ -162,7 +167,7 @@
 
                 <div class="testimonial__card">
                     <div class="testimonial__photo">
-                        <img src="../img/girl.jpg" alt="Марина">
+                        <img src="img/girl.jpg" alt="Марина">
                     </div>
                     <div class="testimonial__name">Марина, 25 лет</div>
                     <div class="testimonial__text">
@@ -187,9 +192,9 @@
 
     </div>
     <div class="content-img-3">
-        <img class="img-3" src="../img/news-1.jpg" alt="">
-        <img class="img-3" src="../img/news-2.jpg" alt="">
-        <img class="img-3" src="../img/news-3.jpg" alt="">
+        <img class="img-3" src="img/news-1.jpg" alt="">
+        <img class="img-3" src="img/news-2.jpg" alt="">
+        <img class="img-3" src="img/news-3.jpg" alt="">
     </div>
     <div class="content-text-3">
         <div class="text-block-3"> Жить, а не бояться: <br> как справляться с <br> канцерофобией</div>
@@ -205,11 +210,11 @@
 <section class="content-4">
     <div class="content-block-4">
         <div class="text-block-4">Частые вопросы</div>
-        <div class="text-img-4"> <img class="Vector-img" src="../img/Vector.png" alt="">Какой у вас график работы? </div>
+        <div class="text-img-4"> <img class="Vector-img" src="img/Vector.png" alt="">Какой у вас график работы? </div>
         <div class="text-work-4"> Я работаю провожу консультации с понедельника по субботу с 15:00 до 21:00. Записаться на прием можно в любой день с 9:00 до 21:00</div>
-        <div class="text-img-5"> <img class="Vector-2" src="../img/Vector-2.png" alt="">Сколько длится сессия? </div>
-        <div class="text-img-5"> <img class="Vector-2" src="../img/Vector-2.png" alt="">Сколько стоит консультация? </div>
-        <div class="text-img-5"> <img class="Vector-2" src="../img/Vector-2.png" alt="">Что из себя представляют консультации? </div>
+        <div class="text-img-5"> <img class="Vector-2" src="img/Vector-2.png" alt="">Сколько длится сессия? </div>
+        <div class="text-img-5"> <img class="Vector-2" src="img/Vector-2.png" alt="">Сколько стоит консультация? </div>
+        <div class="text-img-5"> <img class="Vector-2" src="img/Vector-2.png" alt="">Что из себя представляют консультации? </div>
 
     </div>
 </section>
@@ -243,13 +248,16 @@
 
 
     <div class="form-2">
-        <input type="text" placeholder="Ваше имя">
-        <input type="text" placeholder="Ваш телефон">
-        <input type="email" placeholder="Записаться со скидкой">
+        <label for="surname1">Имя</label>
+        <input id="surname1" type="text" placeholder="Ваше имя">
+        <label for="number">Номер</label>
+        <input id="number" type="text" placeholder="Ваш телефон">
+        <label for="write">Записаться</label>
+        <input id="write" type="email" placeholder="Записаться со скидкой">
     </div>
 
     <div class="Record-5">
-        <p> <img class="img-smol-2" src="../img/чекбокс.png">Я согласен с политикой конфиденциальности</p>
+        <p> <img class="img-smol-2" src="img/чекбокс.png" alt="Чекбокс">Я согласен с политикой конфиденциальности</p>
     </div>
 </section>
 
@@ -257,27 +265,27 @@
 <section class="content-6">
     <div class="content-block-6">
         <div class="img-6">
-            <img class="img-block-6" src="../img/img-block-6.png" alt="">
+            <img class="img-block-6" src="img/img-block-6.png" alt="">
         </div>
 
         <div class="contacts-6">
             <div class="contact-item">
-                <img src="../img/instagram-logo.png" alt="">
+                <img src="img/instagram-logo.png" alt="">
                 <span>@phycholog_sergei</span>
             </div>
 
             <div class="contact-item">
-                <img src="../img/viber.png" alt="">
+                <img src="img/viber.png" alt="">
                 <span>+380 99 123 45 67</span>
             </div>
 
             <div class="contact-item">
-                <img src="../img/telegram.png" alt="">
+                <img src="img/telegram.png" alt="">
                 <span>@phycholog_sergei</span>
             </div>
 
             <div class="contact-item">
-                <img src="../img/phone-call.png" alt="">
+                <img src="img/phone-call.png" alt="">
                 <span>+380 99 123 45 67</span>
             </div>
         </div>
