@@ -115,6 +115,7 @@ button, p {
 
 }
 
+
 .offer__btn {
     background: var(--button-color);
     color: white;
@@ -211,6 +212,8 @@ button, p {
     text-align: center;
     font-size: 48px;
     margin-bottom: 60px;
+    color: black;
+
 }
 
 .testimonial {
@@ -276,6 +279,8 @@ button, p {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    margin-bottom: 28px;
+
 }
 
 .testimonial-two {
@@ -284,6 +289,8 @@ button, p {
     justify-content: flex-end;
     gap: 10px;
     position: relative;
+    padding-right: 100px;
+
 }
 
 .testimonial__card-two {
@@ -299,4 +306,375 @@ button, p {
     font-weight: bold;
     font-size: 48px;
     margin-bottom: 15px;
+
 }
+
+
+
+
+.For-me {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../img/Photo-1.png") center/cover no-repeat;
+    width: 100vw;
+    height: 450px;
+    padding: 60px 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Block-1 {
+    min-height: 450px;
+}
+
+.content-block {
+    width: 570px;
+    font-weight: 700;
+}
+
+.photo-block {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.photo-block img {
+    max-height: 350px;
+    width: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    padding-bottom: 60px;
+}
+
+.text-block {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 16px;
+
+}
+
+.button-block {
+    padding-top: 35px;
+}
+
+h1 {
+    color: #fff;
+    padding-top: 15px;
+}
+
+.button-2 {
+    margin-left: 35px;
+    background: rgba(45, 94, 94, 1);
+    border-radius: 8px;
+    width: 250px;
+    height: 40px;
+    color: #fff;
+}
+
+.button-1 {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: 3px solid #2D5E5E;
+    cursor: pointer;
+}
+/*Второй блок*/
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* по горизонтали по центру */
+    width: 100vw;
+    height: auto; /* высота по содержимому */
+    padding: 40px 20px; /* сверху/снизу и по бокам */
+    box-sizing: border-box;
+}
+
+.Record-2 {
+    font-size: 48px;
+    font-family: Oswald, sans-serif;
+    margin-bottom: 40px; /* отступ снизу для разделения с формой */
+    color: #000; /* или другой цвет */
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+}
+.Record-4{
+    font-weight: 400;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 960px; /* ширина формы */
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    min-width: 0;
+
+
+
+}
+
+.form-left input {
+    width: 369px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    margin-left: 140px;
+}
+
+.form-right {
+    min-width: 0;
+    margin-right:50px;
+}
+
+.form-right textarea {
+    width: 372px;
+    height: 163px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    box-sizing: border-box;
+    border-radius: 25px;
+}
+.Record-3 {
+    color: rgba(45, 94, 94, 1);
+
+}
+.img-smol{
+    padding-right: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+.button-3 {
+    width: 250px;
+    height: 40px;
+    top: 2021px;
+    left: 595px;
+    border-radius: 10px;
+    background: rgba(45, 94, 94, 1);
+    color: #fff;
+
+}
+
+.content-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/img/img-block-3.png") center/cover no-repeat;
+    width: 100vw;
+    height: 564px;
+
+}
+.content-block-2{
+
+    padding-left: 142px;
+    padding-right: 128px;
+    box-sizing: border-box;
+    color: #fff;
+    padding-top: 60px;
+    font-size: 48px;
+    font-family: Oswald;
+    font-weight: 700;
+}
+.content-img-3{
+    padding-left: 142px;
+    padding-right: 128px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+
+}
+.content-text-3 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 142px;
+    padding-right: 44px;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+
+.text-block-3 {
+    color: #fff;
+    text-align: left;
+    width: calc((100% - 40px) / 3); /* если хочешь равные блоки с отступами */
+    font-size: 24px;
+    font-family: Oswald;
+    font-weight: 700;
+
+}
+/*Четвертый блок */
+.content-4 {
+    width: 944px;
+    margin: 60px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.text-block-4{
+    font-family: Oswald;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.Vector-img{
+    padding-top: 80px;
+    padding-right: 16px;
+}
+.text-img-4{
+    color: rgba(45, 94, 94, 1);
+    font-size: 24px;
+    font-family: Oswald;
+    font-weight: 700;
+}
+
+
+.text-work-4{
+    padding-left: 32px;
+    padding-top: 20px;
+    font-family: Montserrat;
+    font-size: 16px;
+
+}
+.text-img-5{
+    padding-top: 50px;
+    font-size: 24px;
+    font-family: Oswald;
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+}
+.Vector-2{
+    padding-right: 20px;
+    color: rgba(0, 0, 0, 1);
+}
+.content-5{
+    height: 345px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content-block-5 {
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    font-family: Oswald;
+    font-weight: 700;
+}
+
+.form-2 {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    padding-top: 60px;
+    max-width: 1200px; /* ← ограничь по нужному размеру */
+    margin: 0 auto;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+}
+
+.form-2 input {
+    width: 369px !important;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.form-2 input:nth-child(3){
+    background: rgba(45, 94, 94, 1);
+    text-align: center;
+}
+.form-2 input:nth-child(3)::placeholder {
+    color: white;
+    opacity: 1;
+}
+.form-2 input::placeholder {
+    color: black;
+    opacity: 1;
+}
+.Record-5{
+    color: rgba(45, 94, 94, 1);
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: Montserrat;
+}
+.img-smol-2{
+    padding-right: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+}
+/*Шестой блок */
+
+.content-6 {
+    padding-left: 135px;
+    padding-right: 341px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 190px;
+    background: rgba(45, 94, 94, 1);
+    display: flex;
+    align-items: center;
+}
+
+.content-block-6 {
+    display: flex;
+    align-items: center;
+    gap: 30px; /* отступы между блоками */
+    font-weight: 500;
+    font-family: Montserrat;
+}
+
+.img-6 {
+    flex-shrink: 0;
+}
+
+.img-block-6 {
+    width: 200px;
+    height: 70px;
+}
+
+.contacts-6 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.contact-item img {
+    width: 18px;
+    height: 18px;
+}
+.contact-item span {
+    white-space: nowrap;
+}
+
