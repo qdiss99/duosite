@@ -387,74 +387,79 @@ h1 {
 }
 /*Второй блок*/
 .content-2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* по горизонтали по центру */
-    width: 100vw;
-    height: auto; /* высота по содержимому */
-    padding: 40px 20px; /* сверху/снизу и по бокам */
-    box-sizing: border-box;
+    text-align: center;
+    font-family: sans-serif;
 }
 
-.Record-2 {
-    font-size: 48px;
-    font-family: Oswald, sans-serif;
-    margin-bottom: 40px; /* отступ снизу для разделения с формой */
-    color: #000; /* или другой цвет */
-    text-align: center;
-    width: 100%;
-    font-weight: 400;
-}
-.Record-4{
-    font-weight: 400;
+.Record-2 p {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
 }
 
 .form-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-    width: 100%;
-    max-width: 960px; /* ширина формы */
-    box-sizing: border-box;
-    font-weight: 400;
+    gap: 40px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.form-left {
+.form-left,
+.form-right {
     display: flex;
     flex-direction: column;
     gap: 20px;
     flex: 1;
-    min-width: 0;
-
-
-
+    min-width: 280px;
 }
 
-.form-left input {
-    width: 369px;
-    height: 40px;
-    padding: 10px;
+input,
+select,
+textarea {
+    padding: 12px 16px;
     font-size: 16px;
-    border-radius: 25px;
+    border: 1px solid #000;
+    border-radius: 10px;
     box-sizing: border-box;
-    margin-left: 140px;
+    width: 100%;
 }
 
-.form-right {
-    min-width: 0;
-    margin-right:50px;
-}
-
-.form-right textarea {
-    width: 372px;
-    height: 163px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
+textarea {
+    height: 120px;
     resize: vertical;
-    box-sizing: border-box;
-    border-radius: 25px;
+}
+
+.form-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    gap: 15px;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    gap: 8px;
+}
+
+button[type="submit"] {
+    background-color: #225d57;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1b4a45;
 }
 .Record-3 {
     color: rgba(45, 94, 94, 1);

@@ -108,17 +108,30 @@
         <p>Записаться на прием</p>
     </div>
 
-    <div class="form-container">
+    <form class="form-container">
         <div class="form-left">
-            <input id="surname" type="text" placeholder="Фамилия">
-            <input id="name" type="text" placeholder="Имя">
-            <input id="email" type="email" placeholder="Почта">
+            <input type="text" placeholder="Ваше имя *" required>
+            <input type="tel" placeholder="Ваш телефон *" required>
+            <select required>
+                <option disabled selected>Тема встречи *</option>
+                <option>Консультация</option>
+                <option>Обследование</option>
+                <option>Лечение</option>
+            </select>
         </div>
-        <div class="form-right">
-            <textarea id="message" placeholder="Ваше сообщение"></textarea>
-        </div>
-    </div>
 
+        <div class="form-right">
+            <textarea placeholder="Пожелания"></textarea>
+        </div>
+
+        <div class="form-bottom">
+            <label class="checkbox-container">
+                <input type="checkbox" required>
+                <span>Я согласен с политикой конфиденциальности</span>
+            </label>
+            <button type="submit">Отправить</button>
+        </div>
+    </form>
 </section>
 
     <section class="offer_section-four">
